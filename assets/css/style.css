@@ -1,4 +1,12 @@
-.bg-blue {
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar-toggler {
+    cursor: pointer;
+  }
+
+/* .bg-blue {
 
     background-color: #1A2238;
 }
@@ -6,5 +14,39 @@
 .bg-orange {
 
     background-color: #FF6A3D;
+} */
+
+.bg-blue {
+
+    background-color: #24305E;
 }
 
+.bg-orange {
+
+    background-color: #F76C6C;
+}
+
+/* .bg-ltblue {
+
+    background-color: #A8D0E6;
+} */
+
+body {
+
+    background-color: #A8D0E6;
+}
+
+.jumbotron {
+
+    padding: 0;
+}
+
+.textcolor {
+
+    color: #F8E9A1
+}
+
+.space {
+padding: 20px;
+
+}

@@ -20,6 +20,9 @@
     <title>Stephen Currie's Web Portfolio</title>
   </head>
   <body>
+
+
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
       <a class="navbar-brand" href="#">Stephen Currie</a>
       <button
@@ -37,69 +40,141 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#aboutme">About Me</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Applications</a>
+            <a class="nav-link" href="#applications">Applications</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact me</a>
+            <a class="nav-link" href="#contactme">Contact me</a>
           </li>
         </ul>
       </div>
     </nav>
-<!-- Hero image and "About Me" Section -->
-    <section id="hero">
-
+    <!-- Hero image and "About Me" Section -->
+    <section id="aboutme">
       <div class="jumbotron containerfluid bg-orange">
-        <div class="hero-unit">
         <div class="row">
-          <h2>About Me</h2>
+          <div class="col-md-2">
+            <h4>About Me</h4>
+          </div>
+          <div class="col-md-3">
+            <img src="./assets/images/SC_Synoptek4.png" />
+          </div>
+          <div class="col-md-7">
+            <ul class="list textcolor">
+              <li>
+                <strong>Technology Leader</strong> Ability to create high
+                performing teams, Establishes clarity in complex environments,
+                Growth oriented, Understands how to use technology to achieve
+                business results, Optimizes costs. Builds cross-functional
+                partnerships, Develops practical strategies and executes
+              </li>
+
+              <li>
+                <strong>Drive for Results:</strong> Goes beyond job
+                responsibilities to achieve success
+              </li>
+              <li>
+                <strong>Business Acumen:</strong> Objectively looks at data to
+                determine and execute optimal plan
+              </li>
+              <li>
+                <strong>Collaboration and Partnership:</strong> Ability to work
+                with a range of personalities, focus on teamwork, culture,
+                process and end-results
+              </li>
+              <li>
+                <strong>Drive for Results:</strong> Goes beyond job
+                responsibilities to achieve success
+              </li>
+              <li>
+                <strong>Functional Knowledge:</strong> Application Development,
+                HTML, CSS, Javascript, Hosting, Networking, Security, Workforce
+                Productivity, Global Operations, IT Service Management,
+                Experience in both Consumer and Business space
+              </li>
+            </ul>
+
+            <a
+              href="https://www.linkedin.com/in/stephen-currie/"
+              target="_blank"
+              ><img src="./assets/images/linkedin-icon.png"
+            /></a>
+            <a href="https://github.com/stephencurrie" target="_blank"
+              ><img src="./assets/images/GitHub-Mark-64px.png" height="48px"
+            /></a>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-6">
-
-              <img src="./assets/images/SC_Synoptek4.png">
-            </div>
-            <div class="col-6"> column B 
-
-              <i>
-                <a href="https://www.linkedin.com/in/stephen-currie/" target="_blank"><img src="./assets/images/linkedin-icon.png"></a>
-                <img src="./assets/images/GitHub-Mark-64px.png" height="48px">
-              </i>
-            </div>
-        </div>
-        </div>
-
-
-
       </div>
     </section>
 
-  <!-- Application section Section -->
-    <section id="applications">
+    <!-- Application Section -->
+    <section class="containerfluid" id="applications">
       <div class="row">
-        <div class="col">
-          <a href="https://stephencurrie.github.io/entertainment-finder/index.html"><img src="./assets/images/entertainmentfinder.png"></a>
+        <div class="col-md-2">
+          <h4>Applications ></h4>
         </div>
+        <!-- <div class="container"> -->
+        <div class="col-md-10 mx-auto">
+          <a 
+            href="https://stephencurrie.github.io/entertainment-finder/index.html"
+            target="_blank"
+            ><img src="./assets/images/entertainmentfinder.png"
+          /></a>
+        </div>
+        <!-- </div> -->
       </div>
       <div class="row">
-        <div class="col-6">
-          <img src="">
+        <div class="col-md-2"></div>
+        <div class="col-md-3 space">
+          <a
+            href="https://stephencurrie.github.io/hw-6-weather-dashboard/"
+            target="_blank"
+            ><img src="./assets/images/weather_screen.png"
+          /></a>
         </div>
-        <div class="col-6">
-          <img src="">
+        <div class="col-md-7 space">
+          <a
+            href="https://stephencurrie.github.io/hw-5-day-planner/"
+            target="_blank"
+            ><img src="./assets/images/dayplanner_screen.png"
+          /></a>
         </div>
       </div>
-
-
     </section>
+
+    <!-- Contact Me Section -->
+    <section class="containerfluid" id="contactme">
+      <div class="row">
+        <div class="col-md-2">
+          <h4>Contact Me</h4>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="emailinput">Enter Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="emailinput"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="test">How can I help you?</label>
+              <textarea class="form-control" id="textarea" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Email me</button>
+          </form>
+        </div>
+      </div>
+    </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
     <script src="./assets/js/script.js"></script>

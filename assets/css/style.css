@@ -6,7 +6,7 @@ html {
     cursor: pointer;
   }
 
-/* .bg-blue {
+ .bg-blue {
 
     background-color: #1A2238;
 }
@@ -14,9 +14,9 @@ html {
 .bg-orange {
 
     background-color: #FF6A3D;
-} */
+} 
 
-.bg-blue {
+/* .bg-blue {
 
     background-color: #24305E;
 }
@@ -24,7 +24,7 @@ html {
 .bg-orange {
 
     background-color: #F76C6C;
-}
+} */
 
 /* .bg-ltblue {
 
@@ -50,3 +50,9 @@ body {
 padding: 20px;
 
 }
+
+.picture {
+    min-width: 300 px:
+}
+
+@media (min-width: 576px)

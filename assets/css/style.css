@@ -51,6 +51,10 @@ padding: 20px;
 
 }
 
+.setwidth {
+    width: 100%;
+}
+
 .picture {
     min-width: 300 px:
 }

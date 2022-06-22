@@ -20,11 +20,14 @@
     <title>Stephen Currie's Web Portfolio</title>
   </head>
   <body>
+    <div class="container">
+
+   
 
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
-      <a class="navbar-brand" href="#">Stephen Currie</a>
+      <a class="navbar-brand" href="#">Portfolio</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -62,123 +65,185 @@
     </nav>
     <!-- Hero image and "About Me" Section -->
     <section id="aboutme">
-      <div class="jumbotron containerfluid bg-orange">
+      <div class="jumbotron container-fluid bg-orange">
         <div class="row">
-          <div class="col-md-2">
-            <h4>About Me</h4>
-          </div>
+          
           <div class="col-md-3">
-            <img class="setwidth" src="./assets/images/SC_Synoptek4.png" />
+            <img class="setwidth" src="./assets/images/SC_Synoptek4.png"/>
           </div>
-          <div class="col-md-7">
-            <ul class="list textcolor">
-              <li>
-                <strong>Technology Leader</strong> Ability to create high
-                performing teams, Establishes clarity in complex environments,
-                Growth oriented, Understands how to use technology to achieve
-                business results, Optimizes costs. Builds cross-functional
-                partnerships, Develops practical strategies and executes
-              </li>
-
-              <li>
-                <strong>Drive for Results:</strong> Goes beyond job
-                responsibilities to achieve success
-              </li>
-              <li>
-                <strong>Business Acumen:</strong> Objectively looks at data to
-                determine and execute optimal plan
-              </li>
-              <li>
-                <strong>Collaboration and Partnership:</strong> Ability to work
-                with a range of personalities, focus on teamwork, culture,
-                process and end-results
-              </li>
-              <li>
-                <strong>Drive for Results:</strong> Goes beyond job
-                responsibilities to achieve success
-              </li>
-              <li>
-                <strong>Functional Knowledge:</strong> Application Development,
-                HTML, CSS, Javascript, Hosting, Networking, Security, Workforce
-                Productivity, Global Operations, IT Service Management,
-                Experience in both Consumer and Business space
-              </li>
-            </ul>
+          <div class="col-md-9">
+            <h2>Stephen Currie</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nec feugiat in fermentum posuere. Sollicitudin tempor id eu nisl.</p>
+            <p>scurrie@gmail.com</p>
+            <p> 678-592-6932</p>
+            <div class="icons">
 
             <a
               href="https://www.linkedin.com/in/stephen-currie/"
               target="_blank"
               ><img src="./assets/images/linkedin-icon.png"
             /></a>
+
             <a href="https://github.com/stephencurrie" target="_blank"
               ><img src="./assets/images/GitHub-Mark-64px.png" height="48px"
             /></a>
+
+            <a href="/assets/images/stephencurrie_resume_CIO.pdf" target="_blank"
+            ><img src="./assets/images/cv-icon.png" height="48px"
+          /></a>
+        </div>
           </div>
         </div>
       </div>
     </section>
 
+ <!-- Skills Section -->
+ <section class="containerfluid" id="applications">
+  <div class="w3-bar w3-blue">
+  </div>
+  <div class="row">
+    <div class="col-md-8 h3space"> 
+      <h3>Business Skills</h3>
+      <ul>
+        <li>
+          <strong>Technology Leader</strong> Ability to create high
+          performing teams, Establishes clarity in complex environments,
+          Growth oriented, Understands how to use technology to achieve
+          business results, Optimizes costs. Builds cross-functional
+          partnerships, Develops practical strategies and executes
+        </li>
+
+        <li>
+          <strong>Drive for Results:</strong> Goes beyond job
+          responsibilities to achieve success
+        </li>
+        <li>
+          <strong>Business Acumen:</strong> Objectively looks at data to
+          determine and execute optimal plan
+        </li>
+        <li>
+          <strong>Collaboration and Partnership:</strong> Ability to work
+          with a range of personalities, focus on teamwork, culture,
+          process and end-results
+        </li>
+        <li>
+          <strong>Drive for Results:</strong> Goes beyond job
+          responsibilities to achieve success
+        </li>
+        <li>
+          <strong>Functional Knowledge:</strong> Application Development,
+         Hosting, Networking, Security, Workforce
+          Productivity, Global Operations, IT Service Management,
+          Experience in both Consumer and Business space
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="col-md-4 h3space">
+      <h3>Technical Skills</h3>
+      <ul class="techskills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Object Oriented Programming</li>
+        <li>Node</li>
+        <li>Express</li>
+        <li>MySQL</li>
+        <li>Sequelize</li>
+        <li>Object Relational Mapping (ORM)</li>
+        <li>Model View Controller (MVC)</li>
+        <li>Responsive Design</li>
+      </ul>
+    </div>
+
+</section>
+
+
+
     <!-- Application Section -->
     <section class="containerfluid" id="applications">
-      <div class="row">
-        <div class="col-md-2">
-          <h4>Applications ></h4>
-        </div>
-        <!-- <div class="container"> -->
-        <div class="col-md-10 mx-auto">
-          <a 
-            href="https://stephencurrie.github.io/entertainment-finder/index.html"
-            target="_blank"
-            ><img src="./assets/images/entertainmentfinder.png"
-          /></a>
-        </div>
-        <!-- </div> -->
+      <div class="w3-bar w3-blue">
       </div>
+      
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-3 space">
+        
+        <div class="col-md-12 h3space">
+          <h3>Sample Web Applications</h3>
+        </div>
+      </div>
+          
+      <div class="row apps h3space">
+
+          <div class="col-md-4">
+            <div class="card">
+              <h5 class="card-header">Entertainment Finder<a href="https://github.com/stephencurrie" target="_blank"><img src="./assets/images/GitHub-Mark-64px.png" class="spacer" height="24px"/></a></h5>
+              <div class="card-body">
+                <a href="https://stephencurrie.github.io/entertainment-finder/index.html" target="_blank"
+            ><img src="./assets/images/entertainmentfinder.png" width="250" height="150"/></a> 
+              </div>
+              <p class="small">(Click image to go to application)</p>
+              
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <h5 class="card-header">Weather Dashboard<a href="https://stephencurrie.github.io/hw-6-weather-dashboard/" target="_blank"><img src="./assets/images/GitHub-Mark-64px.png" class="spacer" height="24px"/></a></h5>
+              <div class="card-body">
+                <a href="https://stephencurrie.github.io/hw-6-weather-dashboard/" target="_blank"
+            ><img src="./assets/images/weather_screen.png" width="250" height="150"/></a> 
+              </div>
+              <p class="small">(Click image to go to application)</p>
+              
+            </div>
+          </div>
+
+        <!-- <div class="col-md-4">
           <a
             href="https://stephencurrie.github.io/hw-6-weather-dashboard/"
             target="_blank"
-            ><img src="./assets/images/weather_screen.png"
+            ><img src="./assets/images/weather_screen.png" width="250" height="150"
           /></a>
+        </div> -->
+
+        <div class="col-md-4">
+          <div class="card">
+            <h5 class="card-header">Feature Prioritizer<a href="https://stephencurrie.github.io/hw-6-weather-dashboard/" target="_blank"><img src="./assets/images/GitHub-Mark-64px.png" class="spacer" height="24px"/></a></h5>
+            <div class="card-body">
+              <a href="https://infinite-coast-94356.herokuapp.com/" target="_blank"
+          ><img src="./assets/images/prioritizer_screen.png" width="250" height="150"/></a> 
+            </div>
+            <p class="small">(Click image to go to application)</p>
+            
+          </div>
         </div>
-        <div class="col-md-7 space">
+
+        <!-- <div class="col-md-4">
           <a
-            href="https://stephencurrie.github.io/hw-5-day-planner/"
+            href="https://infinite-coast-94356.herokuapp.com/"
             target="_blank"
-            ><img src="./assets/images/dayplanner_screen.png"
+            ><img src="./assets/images/prioritizer_screen.png" width="250" height="150"
           /></a>
-        </div>
+        </div> -->
+
       </div>
+
+
     </section>
 
-    <!-- Contact Me Section -->
-    <section class="containerfluid" id="contactme">
-      <div class="row">
-        <div class="col-md-2">
-          <h4>Contact Me</h4>
-        </div>
-        <div class="col-md-6">
-          <form>
-            <div class="form-group">
-              <label for="emailinput">Enter Email address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="emailinput"
-                placeholder="name@example.com"
-              />
-            </div>
-            <div class="form-group">
-              <label for="test">How can I help you?</label>
-              <textarea class="form-control" id="textarea" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary mb-2">Email me</button>
-          </form>
-        </div>
-      </div>
-    </section>
+    <footer class="w3-bar w3-blue">
+      <div >
+  
+      <p>Stephen Currie
+      <a href="mailto:scurrie@gmail.com">scurrie@gmail.com</a>
+      </p>
+    </div>
+    </footer>
+
+
+  </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 

@@ -12,8 +12,9 @@ html {
 }
 
 .bg-orange {
-
-    background-color: #FF6A3D;
+padding-top: 20px;
+    background-color: #A8D0E6;
+    /* background-color: #FF6A3D; */
 } 
 
 /* .bg-blue {
@@ -31,14 +32,49 @@ html {
     background-color: #A8D0E6;
 } */
 
+.techskills {
+    list-style: circle;
+}
+
 body {
 
-    background-color: #A8D0E6;
+    background-color: #b4bcc2;
+}
+
+section {
+    background-color: #eceff2;
+}
+
+footer {
+    border-top: 5px solid #1A2238;;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    background-color: #eceff2;
+    padding-top: 20px;
+}
+
+.card, .card-header, .card-body, .small {
+    display: flex;
+    justify-content: center;
+    background-color: #eceff2;
+    border: none;
+    padding: 2px;
+}
+
+.spacer {
+    margin-left: 5px;
 }
 
 .jumbotron {
 
-    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* height: 300px; */
+    margin-bottom: 0px;
+    border-radius: 0px;
 }
 
 .textcolor {
@@ -46,17 +82,39 @@ body {
     color: #F8E9A1
 }
 
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
 .space {
 padding: 20px;
 
 }
 
+.w3-blue{
+    background-color: #1A2238;
+    height: 5px;
+}
+
+.h3space {
+    padding-left: 50px;
+}
+
+.apps {
+    display: flex;
+    justify-content: space-between;
+}
+
 .setwidth {
     width: 100%;
+    /* width: 200px;
+    height: 200px; */
 }
 
 .picture {
-    min-width: 300 px:
+    min-width: 300px;
 }
 
-@media (min-width: 576px)
+

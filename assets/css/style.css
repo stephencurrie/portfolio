@@ -14,26 +14,13 @@ html {
 .bg-orange {
 padding-top: 20px;
     background-color: #A8D0E6;
-    /* background-color: #FF6A3D; */
+
 } 
 
-/* .bg-blue {
 
-    background-color: #24305E;
-}
-
-.bg-orange {
-
-    background-color: #F76C6C;
-} */
-
-/* .bg-ltblue {
-
-    background-color: #A8D0E6;
-} */
 
 .techskills {
-    list-style: circle;
+    list-style: square;
 }
 
 body {
@@ -54,6 +41,10 @@ footer div {
     justify-content: center;
     background-color: #eceff2;
     padding-top: 20px;
+}
+
+li {
+    padding-top: 3px;
 }
 
 .card, .card-header, .card-body, .small {
@@ -80,6 +71,12 @@ footer div {
 .textcolor {
 
     color: #F8E9A1
+}
+
+.contactinfo {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .icons {
@@ -109,8 +106,7 @@ padding: 20px;
 
 .setwidth {
     width: 100%;
-    /* width: 200px;
-    height: 200px; */
+
 }
 
 .picture {
